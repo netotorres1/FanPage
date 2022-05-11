@@ -27,9 +27,10 @@ body{
     background-color: #878787;
     transition: 0.3s;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     color: white;
+    font-weight: bold;
 }
 .conteudo-principal{
     display: flex;
@@ -49,7 +50,7 @@ body{
 .conteudo-imagem{
     height: 500px;
     width: 800px;
-    border-radius: 45px;
+
 }
 .conteudo-principal-escrito-titulo{
     margin-bottom: 20px;
@@ -58,14 +59,14 @@ body{
     font-size: 18px;
     padding: 15px;
     width: 130px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     margin-top: 20px;
     background-color: #A5A5A5;
     color: black;
+    cursor: pointer;
 }
 .conteudo-principal-escrito-botao:hover{
-
     transition: 0.3s;
     color: white;
 }
@@ -87,16 +88,48 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px;
+    padding: 15px;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 .conteudo-rodape-redes-sociais-item:hover{
     background-color: #878787;
     transition: 0.3s;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     color: white;
+}
+.conteudo-historia{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+.footer-historia{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.conteudo-historia-titlo-paragrafo{
+    margin:30px;
+}
+.section-historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 }
