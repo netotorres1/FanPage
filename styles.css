@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(#c3c3c3, #ffffff);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.cabecalho-menu{
+    display: flex;
+}
+.cabecalho-menu-item{
+    padding: 15px;
+}
+.cabecalho-menu-item:hover{
+    background-color: #878787;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+}
+.conteudo-imagem{
+    height: 500px;
+    width: 800px;
+    border-radius: 45px;
+}
+.conteudo-principal-escrito-titulo{
+    margin-bottom: 20px;
+}
+.conteudo-principal-escrito-botao{
+    font-size: 18px;
+    padding: 15px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #A5A5A5;
+    color: black;
+}
+.conteudo-principal-escrito-botao:hover{
+
+    transition: 0.3s;
+    color: white;
+}
+.conteudo-rodape{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    height:150px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    gap: 35px;
+}
+.conteudo-rodape-redes-sociais{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.conteudo-rodape-redes-sociais-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.conteudo-rodape-redes-sociais-item:hover{
+    background-color: #878787;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
