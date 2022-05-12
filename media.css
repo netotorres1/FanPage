@@ -1,0 +1,58 @@
+@media screen and (max-width: 760px){
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+
+}
+.cabecalho-menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.conteudo-imagem{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+}
+.cabecalho-home:active{
+    color:white;
+}
+.albuns{
+    display: flex;
+    flex-direction: column;
+}
+.albuns-primeira-linha{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.albuns-segunda-linha{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.albuns-bbng{
+    margin-bottom: 20px;
+}
+.albuns-bbng:active{
+    height: 330px;
+    width: 300px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+}
