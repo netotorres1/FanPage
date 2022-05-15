@@ -142,11 +142,13 @@ body{
     max-width: 75%;
     margin: auto;
     box-sizing: border-box;
+    position: static;
 }
 .albuns-primeira-linha{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: static;
 }
 .albuns-segunda-linha{
     margin-top: 50px;
@@ -154,10 +156,11 @@ body{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 86px;
+    position: static;
 }
 .albuns-bbng{
     padding-top: 10px;
-    height: 280px;
+    height: 330px;
     width: 250px;
     background-color: #ffffff;
     border-radius: 10px;
@@ -167,11 +170,13 @@ body{
     font-family: 'Oswald', sans-serif;
     overflow: hidden;
     line-height: 35px;
+    position: static;
 }
 .albuns-bbng:hover{
-    height: 330px;
-    width: 300px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: 6px;
+    right: 3px;
 }
 .albuns-bbng-ouvir{
     width: 70px;
