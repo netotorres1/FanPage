@@ -174,9 +174,8 @@ body{
 }
 .albuns-bbng:hover{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    position: relative;
-    bottom: 6px;
-    right: 3px;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .albuns-bbng-ouvir{
     width: 70px;
